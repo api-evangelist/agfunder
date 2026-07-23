@@ -1,7 +1,17 @@
 aid: agfunder
-name: Agfunder
-description: Agfunder is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: AgFunder
+description: >-
+  AgFunder is a global agrifood-tech venture capital firm investing in deeptech
+  and foundational technologies across AI, biology, robotics, and climate to
+  advance food, agriculture, and human and planetary health. Founded roughly a
+  decade ago by Michael Dean and Rob Leclerc and headquartered in Silicon Valley
+  with offices in London and Singapore, the firm manages over $300M in assets and
+  has backed more than 100 portfolio companies across four continents. AgFunder
+  also operates AgFunderNews (AFN), the leading agtech and foodtech news and
+  research publication, and publishes market research for the agrifoodtech
+  ecosystem. This profile was added to the API Evangelist network as a
+  portfolio-company lead and enriched with the firm's public identity and site
+  properties; AgFunder publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/agfunder/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://agfunder.com/wp-content/uploads/2025/02/cropped-Screenshot-2025-02-10-at-12.17.37-192x192.png
 tags:
 - Company
+- Venture Capital
+- Agrifood Tech
+- Agtech
+- Foodtech
+- Climate
+- Deeptech
+- Investment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,30 @@ maintainers:
 common:
 - type: Website
   url: https://agfunder.com
+- type: About
+  url: https://agfunder.com/about-us/
+- type: Portfolio
+  url: https://agfunder.com/portfolio/
+- type: Research
+  url: https://agfunder.com/research/
+- type: Blog
+  url: https://agfundernews.com
+- type: Support
+  url: https://agfunder.com/about-us/contact-us/
+- type: PrivacyPolicy
+  url: https://agfunder.com/privacy-policy/
+- type: TermsOfService
+  url: https://agfunder.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/agfunder
+- type: Twitter
+  url: https://twitter.com/AgFunder
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/agfunder
+- type: DomainSecurity
+  url: security/agfunder-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

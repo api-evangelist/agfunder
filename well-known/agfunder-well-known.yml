@@ -1,0 +1,18 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://agfunder.com/.well-known/*
+host: https://agfunder.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: AgFunder is an agrifood-tech venture capital firm with no developer/API
+  surface; no .well-known discovery documents are published. Absence recorded as
+  valid probe data. No canonical WellKnown/SecurityTxt pointer emitted.
