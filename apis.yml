@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 image: https://agfunder.com/wp-content/uploads/2025/02/cropped-Screenshot-2025-02-10-at-12.17.37-192x192.png
 tags:
 - Company
@@ -70,6 +70,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://agfunder.com/press/
+  type: Blog
 - type: Website
   url: https://agfunder.com
 - type: About
