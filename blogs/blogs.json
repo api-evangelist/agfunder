@@ -12,8 +12,22 @@
       "source": "https://agfundernews.com",
       "feed_url": "https://agfundernews.com/feed/",
       "title": "",
-      "saved": 10,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://agfunder.com/press/feed/",
+      "feed_url": "https://agfunder.com/press/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://agfundernews.com/feed/",
+      "feed_url": "https://agfundernews.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://agfunder.com/research/",
@@ -23,6 +37,6 @@
       "method": "none"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 50,
+  "fetched": "2026-10-17T14:53:57Z"
 }
